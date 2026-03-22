@@ -1,0 +1,15 @@
+{
+    "hooks": {
+        "Stop": [
+            {
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "copilot --prompt \"Review all changes since the last commit and write results to a file named planning/REVIEW.md.\" --allow-all-tools"
+                    }
+                ]
+            }
+
+        ]
+    }
+}
